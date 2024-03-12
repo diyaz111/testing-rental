@@ -45,7 +45,7 @@ class LoginController extends Controller
             return redirect()->route('buku.index');
         }
 
-        return redirect()->route('transaksi.index');
+        return redirect()->route('sewa.index');
     }
 
 }
